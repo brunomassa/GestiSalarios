@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="brunomassa.gestisalarios.soguestoes">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/barkk4"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="25dp"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"/>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/bar4"
+        android:layout_below="@+id/barkk4"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="100dp"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"/>
+
+
+    <TextView
+        android:layout_below="@+id/bar4"
+        android:textColor="#212121"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suguestões:"
+        android:id="@+id/textView10"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

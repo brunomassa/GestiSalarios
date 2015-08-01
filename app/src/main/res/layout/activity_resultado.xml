@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="brunomassa.gestisalarios.resultado">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/barkk3"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="25dp"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"/>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/bar3"
+        android:layout_below="@+id/barkk3"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="100dp"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"/>
+
+    <TextView
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30dp"
+        android:textColor="#212121"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/bar3"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <com.gc.materialdesign.views.ButtonFlat
+        android:layout_marginTop="40dp"
+        android:id="@+id/buttonflat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#536DFE"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView9"
+        android:text="Suguestões" />
+
+</RelativeLayout>

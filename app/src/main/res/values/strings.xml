@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GestiSalarios</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_passo2">passo2</string>
+    <string name="title_activity_passo3">passo3</string>
+    <string name="title_activity_resultado">resultado</string>
+    <string name="title_activity_soguestoes">soguestoes</string>
+</resources>

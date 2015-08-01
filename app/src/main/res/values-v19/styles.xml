@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+                <!-- Customize your theme here. -->
+                <item name="colorPrimaryDark">#00796B</item>
+                <item name="colorPrimary">#009688</item>
+                <item name="colorAccent">#536DFE</item>
+                <item name="android:textColorPrimary">#212121</item>
+                <item name="android:windowTranslucentStatus">true</item>
+                <item name="android:windowTranslucentNavigation">true</item>
+        </style>
+</resources>
